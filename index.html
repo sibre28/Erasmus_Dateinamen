@@ -1,0 +1,108 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <div class="div_länder">
+    <select class="dropdown_Länder" name="länder" id="länder" onchange="setDateiname()">
+      <option value="Belgien">Belgien</option>
+      <option value="Dänemark">Dänemark</option>
+      <option value="Finnland">Finnland</option>
+      <option value="Frankreich">Frankreich</option>
+      <option value="Griechenland">Griechenland</option>
+      <option value="Italien">Italien</option>
+      <option value="Österreich">Österreich</option>
+      <option value="Polen">Polen</option>
+      <option value="Portugal">Portugal</option>
+      <option value="Schweiz">Schweiz</option>
+      <option value="Slowenien">Slowenien</option>
+      <option value="Spanien">Spanien</option>
+      <option value="Tschechien">Tschechien</option>
+      <option value="Türkei">Türkei</option>
+      <option value="Ungarn">Ungarn</option>
+    </select>
+
+    <select class="dropdown_Kurse" name="Kurse" id="Kurse" onchange="setDateiname()">
+      <option value="Allgemeinmedizin">Allgemeinmedizin</option>
+      <option value="Anästhesiologie">Anästhesiologie</option>
+      <option value="Augenheilkunde">Augenheilkunde</option>
+      <option value="Chirurgie">Chirurgie</option>
+      <option value="Dermatologie">Dermatologie</option>
+      <option value="Developmental Neurobiology, Stem Cells & Disease">Developmental Neurobiology, Stem Cells & Disease</option>
+      <option value="Einführung in die Zahnmedizin">Einführung in die Zahnmedizin</option>
+      <option value="Einführung in Global Health">Einführung in Global Health</option>
+      <option value="Elektrophysiologie & Molekularbiologie von Ionenkanälen erregbarer Membranen">Elektrophysiologie & Molekularbiologie von Ionenkanälen erregbarer Membranen</option>
+      <option value="Epileptologie">Epileptologie</option>
+      <option value="Experimentelle Hämatologie & Transfusionmedizin">Experimentelle Hämatologie & Transfusionmedizin</option>
+      <option value="Frauenheilkunde">Frauenheilkunde</option>
+      <option value="Gesundheits- und Risikokommunikation">Gesundheits- und Risikokommunikation</option>
+      <option value="HNO">HNO</option>
+      <option value="Herzchirurgie">Herzchirurgie</option>
+      <option value="Humangenetik">Humangenetik</option>
+      <option value="Hygiene">Hygiene</option>
+      <option value="Inflammatory Biology of Central Nervous System Diseases">Inflammatory Biology of Central Nervous System Diseases</option>
+      <option value="Innere Medizin">Innere Medizin</option>
+      <option value="Kinderheilkunde">Kinderheilkunde</option>
+      <option value="Klinische Akut- & Notfallmedizin">Klinische Akut- & Notfallmedizin</option>
+      <option value="Klinische Chemie & klinische Pharmakologie">Klinische Chemie & klinische Pharmakologie</option>
+      <option value="Laseranwendung in der Zahnmedizin und Medizin">Laseranwendung in der Zahnmedizin und Medizin</option>
+      <option value="Medizinethik. Grundlagen und ethisch-rechtliche Einzelprobleme">Medizinethik. Grundlagen und ethisch-rechtliche Einzelprobleme</option>
+      <option value="Medizinische Informatik">Medizinische Informatik</option>
+      <option value="Medizinische Mikrobiologie">Medizinische Mikrobiologie</option>
+      <option value="Meine Geschichte für dich">Meine Geschichte für dich</option>
+      <option value="Mind & Brain - theoretical & practical examination of the psyche-body-relationship">Mind & Brain - theoretical & practical examination of the psyche-body-relationship</option>
+      <option value="MKG-Chirurgie">MKG-Chirurgie</option>
+      <option value="Molekulare Medizin & Experimentelle Immunologie">Molekulare Medizin & Experimentelle Immunologie</option>
+      <option value="Natur und sanfte Medizin">Natur und sanfte Medizin</option>
+      <option value="Neurochirurgie">Neurochirurgie</option>
+      <option value="Neurologie">Neurologie</option>
+      <option value="Neuropathologie">Neuropathologie</option>
+      <option value="Nuklearmedizin">Nuklearmedizin</option>
+      <option value="Orthopädie & Unfallchirurgie">Orthopädie & Unfallchirurgie</option>
+      <option value="Palliativmedizin">Palliativmedizin</option>
+      <option value="Pathologie">Pathologie</option>
+      <option value="Pharmakologie & Toxikologie">Pharmakologie & Toxikologie</option>
+      <option value="Planetary Health Diet - International Elective">Planetary Health Diet - International Elective</option>
+      <option value="Plastische Chirurgie">Plastische Chirurgie</option>
+      <option value="Psychiatrie & Psychotherapie">Psychiatrie & Psychotherapie</option>
+      <option value="Psychosomatik">Psychosomatik</option>
+      <option value="Radiologie">Radiologie</option>
+      <option value="Rechtsmedizin">Rechtsmedizin</option>
+      <option value="Seltene Erkrankungen">Seltene Erkrankungen</option>
+      <option value="Sportmedizin">Sportmedizin</option>
+      <option value="Stem Cell Biology">Stem Cell Biology</option>
+      <option value="Tabakprävention">Tabakprävention</option>
+      <option value="Transplantationsmedizin aus interdisziplinärer Perspektive">Transplantationsmedizin aus interdisziplinärer Perspektive</option>
+      <option value="Umgang mit Extremsituationen">Umgang mit Extremsituationen</option>
+      <option value="Urologie">Urologie</option>
+      <option value="Virologie">Virologie</option>
+      <option value="Zelluläre Neurowissenschaften">Zelluläre Neurowissenschaften</option>
+    </select>
+  </div>
+  <div class="div_button">
+    <p class="area" id="area">Test </p>
+    <button class="button" id="button" onclick="copyToClipboard()">In die Zwischenablage kopieren</button>
+  </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
