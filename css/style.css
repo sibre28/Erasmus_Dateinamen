@@ -85,23 +85,27 @@ textarea {
    ========================================================================== */
 
 .area{
-  position: absolute;
+  position: relative;
   text-align: center;
-  width: 1500px;
+  width: available;
   height: 30px;
   font-size: x-large;
   font-family: Calibri, serif;
   border-color: black;
   border-width: 5px;
   border-style: solid;
+  background-color: blanchedalmond;
+  color: black;
 }
 
 .button{
-  position: absolute;
-  width: 150px;
+  text-align: center;
+  position: relative;
+  width: border-box;
+  margin-left: 40%;
+  margin-right: 40%;
   height: 100px;
-  left: 67%;
-  top: 30%;
+  top: 15%;
   font-size: large;
   border-color: black;
   border-width: 3px;
@@ -109,22 +113,28 @@ textarea {
 }
 
 .div_button{
-  position: relative;
+  max-width: available;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 250px;
   alignment: center;
-  width: 1000px;
-  height: 250px
+  position: relative;
+  top: 50px;
 }
 
 .div_länder{
-  width: 1000px;
+  max-width: available;
+  margin-left: 15%;
+  margin-right: 15%;
   height: 375px;
   alignment: center;
   position: relative;
-  left: 15%;
   top: 50px;
 }
 
 .dropdown_Länder{
+  margin-left: auto;
+  margin-right: auto;
   float: left;
   width: 400px;
   height: 250px;
@@ -139,8 +149,10 @@ textarea {
 }
 
 .dropdown_Kurse{
+  margin-left: auto;
+  margin-right: auto;
   float: right;
-  width: 400px;
+  width: 600px;
   height: 250px;
   color: #222222;
   text-align: center;

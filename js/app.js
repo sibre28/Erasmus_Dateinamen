@@ -3,7 +3,7 @@ let kurs = document.getElementById("Kurse")
 setDateiname()
 
 function setDateiname(){
-  document.getElementById("area").innerHTML = getDateiname()
+  document.getElementById("area").innerHTML = "\"" + getDateiname() + "\""
 }
 
 function getDateiname(){
