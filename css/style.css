@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  background-color: lightgray;
 }
 
 /*
@@ -87,21 +88,22 @@ textarea {
 .area{
   position: relative;
   text-align: center;
+  vertical-align: center;
   width: available;
-  height: 30px;
+  height: 65px;
   font-size: x-large;
   font-family: Calibri, serif;
   border-color: black;
   border-width: 5px;
   border-style: solid;
-  background-color: blanchedalmond;
+  background-color: lightblue;
   color: black;
 }
 
 .button{
   text-align: center;
   position: relative;
-  width: border-box;
+  width: 200px;
   margin-left: 40%;
   margin-right: 40%;
   height: 100px;
@@ -110,7 +112,11 @@ textarea {
   border-color: black;
   border-width: 3px;
   border-style: solid;
-}
+  background-color: lightblue;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  animation: ease-in-out;
+  }
 
 .div_button{
   max-width: available;
@@ -124,8 +130,8 @@ textarea {
 
 .div_länder{
   max-width: available;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 8%;
+  margin-right: 8%;
   height: 375px;
   alignment: center;
   position: relative;
@@ -136,7 +142,7 @@ textarea {
   margin-left: auto;
   margin-right: auto;
   float: left;
-  width: 400px;
+  width: 300px;
   height: 250px;
   color: #222222;
   text-align: center;
@@ -146,6 +152,29 @@ textarea {
   border-color: black;
   border-width: 3px;
   border-style: solid;
+  background-color: beige;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+
+.dropdown_Unis{
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+  width: 300px;
+  height: 250px;
+  color: #222222;
+  text-align: center;
+  font-size: xx-large;
+  position: relative;
+  right: 5%;
+  left: 5%;
+  border-color: black;
+  border-width: 3px;
+  border-style: solid;
+  background-color: blanchedalmond;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
 }
 
 .dropdown_Kurse{
@@ -162,6 +191,9 @@ textarea {
   border-color: black;
   border-width: 3px;
   border-style: solid;
+  background-color: darkseagreen;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
 }
 
 /* ==========================================================================

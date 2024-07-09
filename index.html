@@ -13,17 +13,13 @@
   <meta property="og:url" content="">
   <meta property="og:image" content="">
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
-
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
   <div class="div_länder">
-    <select class="dropdown_Länder" name="länder" id="länder" onchange="setDateiname()">
+    <select class="dropdown_Länder" name="Länder" id="Länder" onchange="afterCountryChanges()">
       <option value="Belgien">Belgien</option>
       <option value="Dänemark">Dänemark</option>
       <option value="Finnland">Finnland</option>
@@ -39,6 +35,9 @@
       <option value="Tschechien">Tschechien</option>
       <option value="Türkei">Türkei</option>
       <option value="Ungarn">Ungarn</option>
+    </select>
+
+    <select class="dropdown_Unis" name="Unis" id="Unis" onchange="setDateiname()">
     </select>
 
     <select class="dropdown_Kurse" name="Kurse" id="Kurse" onchange="setDateiname()">
